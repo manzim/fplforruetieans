@@ -13,7 +13,7 @@ function Content() {
   const contentStyle = {
     //paddingTop: props.styles.topBarHeight + 4,
     paddingRight: 2,
-    //paddingBottom: props.styles.footerMenuHeight + 0,
+    // paddingBottom: 15,
     paddingLeft: 2,
     //backgroundImage: `url(${a6})`,
     minHeight: 'inherit'

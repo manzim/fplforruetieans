@@ -1,10 +1,10 @@
 import React from 'react'
 import { Button } from '@blueprintjs/core'
-// import { useHistory } from 'react-router-dom'
+import { useHistory } from 'react-router-dom'
 import NavBar from './NavBar'
 
 function LandingScreen() {
-    // let history = useHistory()
+    let history = useHistory()
     return (
         <div>
             <NavBar />
@@ -17,7 +17,7 @@ function LandingScreen() {
                         icon="globe" 
                         intent="success" 
                         large 
-                        onClick={ () => window.scrollTo('')}
+                        onClick={ () => history.push('./suggestions') }
                     />
                 </div>
             </article>

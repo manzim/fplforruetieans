@@ -28,7 +28,7 @@ export default function DrawerMobile() {
                     className="flex flex-column bg-near-white"
                     isOpen={open}
                     size={"260px"}
-                    style={{ backgroundColor: '#EEEEEE', zIndex: 999 }
+                    style={{ backgroundColor: '#EEEEEE', zIndex: 1000 }
                     }
                     vertical={false}
                     canOutsideClickClose={true}
@@ -55,16 +55,16 @@ export default function DrawerMobile() {
 
                     <div className="fl ">
                         <div className="pa3">
-                            <Button className="" text='Templates' minimal icon="media" />
+                            <Button className="" text='Templates' minimal icon="media" onClick={() => {history.push('/templates'); setOpen(false)}} />
                         </div>
                         <div className="pa3">
-                            <Button className="" text='Suggestions' minimal icon="lightbulb" />
+                            <Button className="" text='Suggestions' minimal icon="lightbulb" onClick={() => {history.push('/suggestions'); setOpen(false)}} />
                         </div>
                         <div className="pa3">
-                            <Button className="" text='Captain' minimal icon="new-person" />
+                            <Button className="" text='Captain' minimal icon="new-person" onClick={() => {history.push('./captain'); setOpen(false)}} />
                         </div>
                         <div className="pa3">
-                            <Button className="" text='Coming Soon...' minimal icon="time" />
+                            <Button className="" text='Coming Soon...' minimal icon="time" onClick={() => {history.push('./#'); setOpen(false)}} />
                         </div>
                     </div>
 

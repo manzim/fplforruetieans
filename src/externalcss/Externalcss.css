@@ -5,3 +5,7 @@
 ._desktopmenu_{
     position: fixed !important;
 }
+
+.aspect-ratio--object {
+    z-index: 10 !important;
+}

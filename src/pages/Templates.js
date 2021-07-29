@@ -1,6 +1,8 @@
 import { Button, Dialog, Classes, AnchorButton, Intent } from '@blueprintjs/core'
 import React, { useState } from 'react'
 
+import '../externalcss/Externalcss.css'
+
 import landingbannerany from '../resources/logoBanner/landingbannerany.jpg'
 
 function Templates() {

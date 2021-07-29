@@ -14,7 +14,7 @@ function DrawerDesktop() {
                 <span className="bp3-navbar-divider"></span>
                 <Button className="" text='Captain' minimal icon="new-person" onClick={ () => history.push('./captain') } />
                 <span className="bp3-navbar-divider"></span>
-                <Button className="" text='Coming Soon...' minimal icon="time" onClick={ () => history.push('./#') } />
+                <Button className="" text='Coming Soon...' minimal icon="time" onClick={ () => history.push('#') } />
                 <span className="bp3-navbar-divider"></span>
             </div>
         </div>
