@@ -3,7 +3,7 @@ import React, { useState } from 'react'
 
 import '../externalcss/Externalcss.css'
 
-import landingbannerany from '../resources/logoBanner/landingbannerany.jpg'
+import landingbannerany from '../resources/screenshots/team.PNG'
 
 function Templates() {
 

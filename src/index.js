@@ -5,6 +5,7 @@ import App from './App';
 import 'tachyons/css/tachyons.min.css';
 import '@blueprintjs/core/lib/css/blueprint.css';
 import '@blueprintjs/icons/lib/css/blueprint-icons.css';
+import "@blueprintjs/popover2/lib/css/blueprint-popover2.css";
 
 import {
   BrowserRouter as Router,

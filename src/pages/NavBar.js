@@ -3,7 +3,7 @@ import { useHistory } from 'react-router-dom'
 import DrawerDesktop from '../drawer/DrawerDesktop'
 import DrawerMobile from '../drawer/DrawerMobile'
 
-import myLogo from '../resources/logoBanner/mylogo.svg'
+import myLogo from '../resources/logoBanner/mylogo.png'
 
 function NavBar() {
     let history = useHistory()
