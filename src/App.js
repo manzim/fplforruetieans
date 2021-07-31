@@ -8,6 +8,7 @@ import LandingScreen from './pages/LandingScreen';
 import Templates from './pages/Templates';
 import Suggestions from './pages/Suggestions';
 import CaptainPick from './pages/CaptainPick';
+import LeagueCodes from './pages/LeagueCodes';
 
 function Content() {
   const contentStyle = {
@@ -25,6 +26,7 @@ function Content() {
         <Route path="/templates" exact={true} component={Templates} />
         <Route path="/suggestions" exact={true} component={Suggestions} />
         <Route path="/captain" exact={true} component={CaptainPick} />
+        <Route path="/leaguecodes" exact={true} component={LeagueCodes} />
         {/* <Route path="/templates" exact={true} component={Templates} />  */}
         <Route path="/" exact={true} component={LandingScreen} />
       </Switch>

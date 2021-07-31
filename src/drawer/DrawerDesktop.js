@@ -5,6 +5,8 @@ import { useHistory } from 'react-router-dom'
 import { MenuItem, Menu, MenuDivider } from '@blueprintjs/core';
 import { Popover2 } from '@blueprintjs/popover2';
 
+import '../externalcss/Externalcss.css'
+
 function DrawerDesktop() {
 
     const [isOpen, setIsOpen] = useState(false)
@@ -13,11 +15,11 @@ function DrawerDesktop() {
     return (
         <div>
             <div className="flex justify-end items-center">
-                <Button className="" text='Templates' minimal icon="media" onClick={() => history.push('/templates')} />
+                <Button className="-btn_ " text='Templates' minimal icon="media" onClick={() => history.push('/templates')} />
                 <span className="bp3-navbar-divider"></span>
-                <Button className="" text='Suggestions' minimal icon="lightbulb" onClick={() => history.push('/suggestions')} />
+                <Button className="-btn_ " text='Suggestions' minimal icon="lightbulb" onClick={() => history.push('/suggestions')} />
                 <span className="bp3-navbar-divider"></span>
-                <Button className="" text='Captain' minimal icon="new-person" onClick={() => history.push('./captain')} />
+                <Button className="-btn_ " text='Captain' minimal icon="new-person" onClick={() => history.push('./captain')} />
                 <span className="bp3-navbar-divider"></span>
                 <Popover2
                     popoverClassName=""
@@ -39,7 +41,7 @@ function DrawerDesktop() {
                             <MenuDivider />
 
                             <MenuItem icon="dollar" text="League Code BD"
-                                onClick={() => { history.push('#'); setIsOpen(!isOpen) }} />
+                                onClick={() => { history.push('./leaguecodes'); setIsOpen(!isOpen) }} />
                             <MenuDivider />
 
                             <MenuItem icon="cross" text="Close"
@@ -48,7 +50,7 @@ function DrawerDesktop() {
                         </Menu>
                     }
                 >
-                    <Button intent="none" text="Coming Soon..." minimal onClick={() => setIsOpen(!isOpen)} />
+                    <Button intent="none" icon="time" text="Coming Soon..." minimal onClick={() => setIsOpen(!isOpen)} />
                 </Popover2>
                 <span className="bp3-navbar-divider"></span>
             </div>
