@@ -1,5 +1,14 @@
 import React from 'react'
 
+import bruno from '../resources/players/bruno.jpg';
+import salah from '../resources/players/salah.jpg';
+// import bruno from '../resources/players/bruno.jpg';
+// import bruno from '../resources/players/bruno.jpg';
+// import bruno from '../resources/players/bruno.jpg';
+// import bruno from '../resources/players/bruno.jpg';
+// import bruno from '../resources/players/bruno.jpg';
+// import bruno from '../resources/players/bruno.jpg';
+
 function CaptainPick() {
 
     // const cardNumber = [ 1, 2, 3]
@@ -11,7 +20,7 @@ function CaptainPick() {
             choice3: "bruno",
             gambles: "Taa, Robertson, Cavani, Sancho",
             choiceOf: "Official Fantasy Football Scout",
-            image: require("../resources/players/bruno.jpg")
+            image: bruno
         },
         {
             choice1: "FFScout UK",
@@ -19,7 +28,7 @@ function CaptainPick() {
             choice3: "bruno",
             gambles: "Taa, Robertson, Cavani, Sancho",
             choiceOf: "Official Fantasy Football Scout",
-            image: require(`../resources/players/salah.jpg`),
+            image: salah
         },
         {
             choice1: "salah",
@@ -27,7 +36,7 @@ function CaptainPick() {
             choice3: "bruno",
             gambles: "Taa, Robertson, Cavani, Sancho",
             choiceOf: "Official Fantasy Football Scout",
-            image: require(`../resources/players/bruno.jpg`),
+            image: bruno
         },
     ]
 
