@@ -3,7 +3,6 @@ import React, { useState } from 'react'
 
 import '../externalcss/Externalcss.css'
 
-import landingbannerany from '../resources/screenshots/team.PNG'
 import team from '../resources/screenshots/team.PNG'
 
 function Templates() {
@@ -217,32 +216,32 @@ function Templates() {
                                                 <img
                                                     src={item.imgSrc}
                                                     alt={item.teamOf}
-                                                />            
+                                                />
                                             </div>
+                                        </div>
+                                        <div className={Classes.DIALOG_FOOTER}>
+                                            <div className={Classes.DIALOG_FOOTER_ACTIONS}>
+                                                <AnchorButton
+                                                    intent={Intent.DANGER}
+                                                    onClick={() => setIsOpen(!isOpen)}
+                                                >
+                                                    close
+                                                </AnchorButton>
                                             </div>
-                                            <div className={Classes.DIALOG_FOOTER}>
-                                                <div className={Classes.DIALOG_FOOTER_ACTIONS}>
-                                                    <AnchorButton
-                                                        intent={Intent.DANGER}
-                                                        onClick={() => setIsOpen(!isOpen)}
-                                                    >
-                                                        close
-                                                    </AnchorButton>
-                                                </div>
-                                            </div>
+                                        </div>
                                     </Dialog>
                                 </div>
 
-                                </div>
+                            </div>
 
-                                )
+                        )
                         }
 
-                            </div>
-                </div>
+                    </div>
                 </div>
             </div>
-            )
+        </div>
+    )
 }
 
-            export default Templates
+export default Templates
